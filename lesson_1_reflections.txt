@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It was easy to spot the bug because I did not have to go through the whole content.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can easily see what changes have I made to the file. I can add on to it and compare to the previous version to see the difference.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually choosing when to commit:
+		Pros: can commit when we have done one logical piece of work. So, it is easy to view what has been done step by step.
+		cons: sometimes we forget to commit or don't know when is the right time to commit. So, it might clutter our work.
+		
+	Automatically saved:
+		pros: We don't have to worry about when to commit.
+		cons: work is not logically commited. So, it is difficult to go through the work step by step.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Sometimes it is important to save multiple files in one commit because they are related logically. so, git allows to save multiple files in one commit.
+	
+	However in case of google docs, this is not the case because the files are saved automatically after we make some changes.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    we can use git log commmand to view all the previous commits. The git diff command followed by two git commit ids will show the difference between two git commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    We can confidently make changes to sensitive files. This is because of the fact that if something goes wrong we can easily restore the previous working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   I would like to try Git for my coding project.
