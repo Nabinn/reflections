@@ -12,3 +12,6 @@ What happens when you initialize a repository? Why do you need to do it?
 
  How do the diagrams help you visualize the branch structure?
  	Diagrams show the branch structure so that we can see trace back the log history.
+
+ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+ 	The files are combined together. Commits are also merged together according to the timestamp. We represent it in the diagram to visually understand how commits are merged together.
