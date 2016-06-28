@@ -15,3 +15,12 @@ What happens when you initialize a repository? Why do you need to do it?
 
  What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
  	The files are combined together. Commits are also merged together according to the timestamp. We represent it in the diagram to visually understand how commits are merged together.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+ Git's automatic merge:
+ 				pros: we don't have to merge manually
+ 				cons: Sometimes it might merge conflicting fragments of files in wrong way.
+
+ Always doing merger manually
+ 				pros: tedious (have to merge every time even if there are no conflicts)
+ 				cons: if there are conflicts, we can go through the conflicts and correct them so that our files are in good logical state just like we want them to be in.
